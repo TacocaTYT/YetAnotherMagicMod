@@ -1,0 +1,10 @@
+{
+  "item.yamm-core.raw_platinum": "Raw Platinum",
+  "item.yamm-core.platinum_ingot": "Platinum Ingot",
+  "item.yamm-core.platinum_nugget": "Platinum Nugget",
+
+  "block.yamm-core.platinum_block": "Platinum Block",
+  "block.yamm-core.platinum_ore": "Deepslate Platinum Ore",
+
+  "itemGroup.yamm-core.magic_materials": "YAMM Material Tab"
+}

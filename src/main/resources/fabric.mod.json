@@ -2,11 +2,10 @@
 	"schemaVersion": 1,
 	"id": "yamm-core",
 	"version": "${version}",
-	"name": "YAMM Core",
+	"name": "YAMM-core",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"_Katte",
-		"PensiveMoth"
+		"_Katte"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,22 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			{
-				"value": "net.katte.yamm.YetAnotherMagicMod",
-				"adapter": "kotlin"
-			}
+			"net.katte.yamm.YAMagicM"
 		],
 		"client": [
-			{
-				"value": "net.katte.yamm.ExampleModClient",
-				"adapter": "kotlin"
-			}
-		],
-		"fabric-datagen": [
-			{
-				"value": "net.katte.yamm.ExampleModDataGenerator",
-				"adapter": "kotlin"
-			}
+			"net.katte.yamm.ExampleModClient"
 		]
 	},
 	"mixins": [
@@ -46,8 +33,7 @@
 		"fabricloader": ">=0.14.22",
 		"minecraft": "~1.19.2",
 		"java": ">=17",
-		"fabric-api": "*",
-		"fabric-language-kotlin": ">=1.9.0"
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"

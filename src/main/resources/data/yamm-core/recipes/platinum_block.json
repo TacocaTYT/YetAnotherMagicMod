@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":  [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "yamm-core:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "yamm-core:platinum_block"
+  }
+}
