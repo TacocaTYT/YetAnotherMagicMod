@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import net.katte.yamm.block.ModBlocks;
 import net.katte.yamm.item.ModItems;
+import net.katte.yamm.world.feature.ModConfiguredFeatures;
+import net.katte.yamm.world.gen.ModOreGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,9 +15,11 @@ public class YAMagicM implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModOreGeneration.generateOres();
 	}
 }

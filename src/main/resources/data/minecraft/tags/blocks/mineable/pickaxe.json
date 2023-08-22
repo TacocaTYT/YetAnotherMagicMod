@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "yamm-core:platinum_ore",
-    "yamm-core:platinum_block"
+    "yamm-core:platinum_block",
+    "yamm-core:silver_ore",
+    "yamm-core:silver_block"
   ]
 }

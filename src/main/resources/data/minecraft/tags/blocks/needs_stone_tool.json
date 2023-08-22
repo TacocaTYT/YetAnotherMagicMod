@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "yamm-core:platinum_block"
+    "yamm-core:platinum_block",
+    "yamm-core:silver_block"
   ]
 }

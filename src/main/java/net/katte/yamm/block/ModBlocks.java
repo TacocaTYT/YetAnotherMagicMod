@@ -16,9 +16,15 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.MAGIC_MATERIALS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroup.MAGIC_MATERIALS);
     public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
             new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
+    public static final Block SILVER_ORE = registerBlock("silver_ore",
+            new OreBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
+    public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
+            new OreBlock(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
+    public static final Block SILVER_BLOCK = registerBlock("silver_block",
+            new OreBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

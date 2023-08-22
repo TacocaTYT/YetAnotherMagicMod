@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silver_ingot",
+  "ingredients": [
+    {
+      "item": "yamm-core:silver_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "yamm-core:silver_ingot"
+  }
+}

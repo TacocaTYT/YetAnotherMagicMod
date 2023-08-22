@@ -14,6 +14,12 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MAGIC_MATERIALS)));
     public static final Item PLATINUM_NUGGET = registerItem("platinum_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.MAGIC_MATERIALS)));
+    public static final Item RAW_SILVER = registerItem("raw_silver",
+            new Item(new FabricItemSettings().group(ModItemGroup.MAGIC_MATERIALS)));
+    public static final Item SILVER_INGOT = registerItem("silver_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.MAGIC_MATERIALS)));
+    public static final Item SILVER_NUGGET = registerItem("silver_nugget",
+            new Item(new FabricItemSettings().group(ModItemGroup.MAGIC_MATERIALS)));
 
 
 

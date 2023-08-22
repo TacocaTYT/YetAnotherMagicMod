@@ -2,9 +2,15 @@
   "item.yamm-core.raw_platinum": "Raw Platinum",
   "item.yamm-core.platinum_ingot": "Platinum Ingot",
   "item.yamm-core.platinum_nugget": "Platinum Nugget",
-
   "block.yamm-core.platinum_block": "Platinum Block",
   "block.yamm-core.platinum_ore": "Deepslate Platinum Ore",
+
+  "item.yamm-core.raw_silver": "Raw Silver",
+  "item.yamm-core.silver_ingot": "Silver Ingot",
+  "item.yamm-core.silver_nugget": "Silver Nugget",
+  "block.yamm-core.silver_block": "Silver Block",
+  "block.yamm-core.silver_ore": "Silver Ore",
+  "block.yamm-core.deepslate_silver_ore": "Deepslate Silver Ore",
 
   "itemGroup.yamm-core.magic_materials": "YAMM Material Tab"
 }
