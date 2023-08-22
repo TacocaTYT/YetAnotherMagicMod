@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> PLATINUM_ORE_PLACED = PlacedFeatures.register("platinum_ore_placed",
-            ModConfiguredFeatures.PLATINUM_ORE, modifiersWithCount(5, HeightRangePlacementModifier.trapezoid(YOffset.fixed(-44),YOffset.fixed(0))));
+            ModConfiguredFeatures.PLATINUM_ORE, modifiersWithCount(5, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(20),YOffset.fixed(0))));
     public static final RegistryEntry<PlacedFeature> SILVER_ORE_PLACED = PlacedFeatures.register("silver_ore_placed",
             ModConfiguredFeatures.SILVER_ORE, modifiersWithCount(5, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(20),YOffset.fixed(100))));
 

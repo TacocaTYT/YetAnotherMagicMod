@@ -22,7 +22,7 @@ public class ModBlocks {
     public static final Block SILVER_ORE = registerBlock("silver_ore",
             new OreBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
-            new OreBlock(FabricBlockSettings.of(Material.METAL).strength(2.2f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
+            new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
     public static final Block SILVER_BLOCK = registerBlock("silver_block",
             new OreBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool(), UniformIntProvider.create(2,8)), ModItemGroup.MAGIC_MATERIALS);
 
